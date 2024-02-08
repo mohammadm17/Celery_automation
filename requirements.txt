@@ -1,0 +1,3 @@
+Celery
+nltk
+feedparser
