@@ -5,6 +5,7 @@ from database_module import DatabaseError
 # Define the Celery app
 celery = Celery('tasks', broker='redis://localhost:6379/0', backend='redis://localhost:6379/1')
 
+
 # Define Celery task for article classification
 @celery.task
 def classify_article(title, content):
