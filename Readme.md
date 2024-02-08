@@ -23,7 +23,7 @@ Installation
 
     bash
 
-git clone https://github.com/yourusername/celery-automation-task.git
+git clone https://github.com/mohammadm17/Celery_automation.git
 cd celery-automation-task
 
 Install the required dependencies:
